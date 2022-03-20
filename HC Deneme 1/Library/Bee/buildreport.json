@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 7804851079.2,"dur": 5138661.1, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 7804876979.3,"dur": 30600.7, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 7804930267.7,"dur": 5023702.9, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "01/18/2022 14:47:17",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.3f1\\Editor\\Unity.exe\" -projectpath \"D:\\Desktop\\HC Deneme 1\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-canka -hubSessionId 2f1ec390-7843-11ec-a9cf-b5b59f10516b -accessToken rS1ivou8qjVFcsHddtXqqG2xAJoOkBRbtuhw2K5dlPk011f -projectpath D:\\Desktop\\HC Deneme 1 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-canka -hubSessionId 2f1ec390-7843-11ec-a9cf-b5b59f10516b -accessToken kVdXkdB9k-xu_cbTjudJl2YrWvQrLlLj8BzFsIV0OGo011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.3f1\\Editor\\Unity.exe -projectpath D:\\Desktop\\HC Deneme 1 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-canka -hubSessionId 2f1ec390-7843-11ec-a9cf-b5b59f10516b -accessToken rS1ivou8qjVFcsHddtXqqG2xAJoOkBRbtuhw2K5dlPk011f -projectpath D:\\Desktop\\HC Deneme 1 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-canka -hubSessionId 2f1ec390-7843-11ec-a9cf-b5b59f10516b -accessToken kVdXkdB9k-xu_cbTjudJl2YrWvQrLlLj8BzFsIV0OGo011f",
+"meta_user_name": "canka",
+"meta_os_version": "Microsoft Windows NT 10.0.19043.0",
+"meta_cpu_count": "16"
+}
